@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <!-- Basic -->
@@ -137,15 +137,15 @@
             <form action="">
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="form-control" placeholder="Your Name" />
+                  <input type="text" class="form-control" placeholder="Your Name" required />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col-lg-6">
-                  <input type="text" class="form-control" placeholder="Phone Number" />
+                  <input type="number" class="form-control" placeholder="Phone Number" required />
                 </div>
                 <div class="form-group col-lg-6">
-                  <select name="" id="" class="form-control wide">
+                  <select name="" id="" class="form-control wide" required>
                     <option value="">Select Service</option>
                     <option value="">Service 1</option>
                     <option value="">Service 2</option>
@@ -155,16 +155,16 @@
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="email" class="form-control" placeholder="Email" />
+                  <input type="email" class="form-control" placeholder="Email" required />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="message-box form-control" placeholder="Message" />
+                  <input type="text" class="message-box form-control" placeholder="Message" required />
                 </div>
               </div>
               <div class="btn_box">
-                <button>
+                <button type="submit">
                   SEND
                 </button>
               </div>
@@ -173,18 +173,15 @@
         </div>
         <div class="col-md-6 px-0">
           <div class="map_container">
-
-              <div class="map">
-                <div id="googleMap"></div>
-              </div>
-
+            <div class="map">
+              <div id="googleMap"></div>
+            </div>
           </div>
         </div>
-
-
       </div>
     </div>
   </section>
+
   <!-- end contact section -->
 
   <!-- info section -->
